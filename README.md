@@ -114,29 +114,37 @@ Working Sheet
 
 ![Working Sheet - Fastfood Restaurant](assets/WorkingSheet_FastFoodRestaurant.png)
 
-Descriptive Statistics (Price and Quantity)
+Average Income Per Purchase (Male and Female)
 
 ![Statistics - Descriptive - Fastfood Restaurant](assets/Statistics_Descriptive_FastFoodRestaurant.png)
 
-Data Analysis Questions
+Customer Commute Analysis: Purchase Behavior by Distance (0-1 Miles, 1-2 Miles, 2-5 Miles, 5-10 Miles, and More than 10 Miles)
 
 ![Questions - Fastfood Restaurant](assets/Questions_FastFoodRestaurant.png)
 
-Bestselling Product
+Customer Age Brackets (Adolescent, Middle Age, Old): Bike Purchase vs. Non-Purchase Analysis
 
 ![Pivot Table - Bestselling Prodcut - Fastfood Restaurant](assets/PivotTable_BestsellingProduct_FastFoodRestaurant.png)
 
-Revenue by Payment Type
+Count of Bike Purchases by Age: Purchased vs. Not Purchased (Including Grand Total)
 
 ![Pivot Table - Revenue - Fastfood Restaurant](assets/PivotTable_Revenue_FastFoodRestaurant.png)
 
-Manager and Country Performance
+Dashboard
+  - 1. Average Income Per Purchase
+  - 2. Customer Age Brackets
+  - 3. Customer Commute
 
 ![Pivot Table - ManagerRevnue - Fastfood Restaurant](assets/PivotTable_ManagerRevenue_FastFoodRestaurant.png)
 
-Box and Whisker
+Slider
+  - 1. Married and Single
+  - 2. Region: Europe, North America and Pacific
+  - 3. Education: Bachelors, Graduate Degree, High School, Partial College and Partial High School
 
-![Box and Whisker - Fastfood Restaurant](assets/BoxAndWhisker_FastFoodRestaurant.png)
+![Pivot Table - ManagerRevnue - Fastfood Restaurant](assets/PivotTable_ManagerRevenue_FastFoodRestaurant.png)
+
+
 
 
 
