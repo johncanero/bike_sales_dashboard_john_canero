@@ -116,7 +116,7 @@ Working Sheet
 
 Average Income Per Purchase (Male and Female)
 
-![Pivot Table & Chart - Average Income Per Purchase (Male and Female) - Bike Sales Dashboard](assets/AverageIncomePerPurchase_BikeSales_Dataset.png)
+![Pivot Table & Chart - Average Income Per Purchase (Male and Female) - Bike Sales Dashboard](assets/PivotTable_Chart_AverageIncomePerPurchase_BikeSales_Dataset.png)
 
 Customer Commute Analysis: Purchase Behavior by Distance (0-1 Miles, 1-2 Miles, 2-5 Miles, 5-10 Miles, and More than 10 Miles)
 
