@@ -173,7 +173,29 @@ Slider
 
 
 ## Limitation and What Can Be Improved
+#### Limitations:
 
+1. **Limited Scope of Variables:** While the analysis covers demographic factors like age, gender, marital status, and commute distance, other potentially influential factors—such as customer lifestyle, preferences, or environmental factors (e.g., weather, infrastructure)—are not included. This limits the ability to fully understand the drivers behind bike purchases.
+
+2. **Static Data:** The dataset likely represents a snapshot in time, and customer behavior could change over time due to external factors like economic conditions or emerging trends in cycling. Without time-series data, it's difficult to analyze trends over a period or predict future changes in purchasing behavior.
+
+3. **Binary Purchase Behavior:** The analysis categorizes customers simply as having purchased a bike or not, but it doesn’t capture details about multiple purchases, product types, or preferences, which could provide deeper insights into customer behavior.
+
+4. **Potential Bias in the Data:** If the dataset is not fully representative of the entire customer base (e.g., skewed toward certain regions or demographics), the insights may be biased and not applicable to the entire market.
+
+#### What Can Be Improved:
+
+1. **Incorporate Additional Variables:** To gain deeper insights, more variables should be included, such as product type preferences (e.g., mountain bikes, road bikes), customer lifestyle indicators (e.g., fitness level, interest in outdoor activities), and even environmental factors (e.g., bike-friendly cities, weather conditions). This would help build a more comprehensive understanding of customer purchasing behavior.
+
+2. **Add Time-Series Data:** Collecting and analyzing data over time would allow for the identification of trends, seasonality, and long-term shifts in customer preferences. This could provide insights into how purchasing patterns evolve and allow for better forecasting and planning.
+
+3. **Granular Purchase Data:** Rather than simply categorizing customers as buyers or non-buyers, analyzing the number of purchases, the types of bikes bought, and the frequency of purchases could offer deeper insights into customer loyalty, product preferences, and upsell opportunities.
+
+4. **Customer Sentiment Analysis:** Collecting feedback from customers (e.g., reviews, satisfaction surveys) and performing sentiment analysis could help understand customer preferences, pain points, and reasons behind purchasing decisions, which would help improve products and services.
+
+5. **Expand Dashboard Functionality:** Improving the dashboard by adding more interactive features, such as forecasting tools or deeper drill-down capabilities, would help stakeholders explore the data in more dynamic ways and uncover hidden insights.
+
+6. **Use Advanced Analytics Techniques:** Employ machine learning or predictive models to identify patterns, predict future purchasing behavior, and optimize customer targeting. This would allow the business to move from descriptive analytics to more actionable, predictive insights.
 
 
 
@@ -190,13 +212,13 @@ git init
 Clone the project
 
 ```bash
-git clone https://github.com/johncanero/fastfood_chain_dataset_john_canero.git
+git clone https://github.com/johncanero/bike_sales_dashboard_john_canero.git
 ```
 
 enter the project directory
 
 ```bash
-cd fastfood_chain_dataset_john_canero
+cd bike_sales_dashboard_john_canero
 ```
 
 Open in Visual Studio Code
@@ -210,16 +232,17 @@ code .
 
 ```
 ├── assets
-│   ├── Banner_FastFoodRestuaurant_Dataset.png      
-│   ├── PivotTable_BestsellingProduct_FastFoodRestaurant.png 
-│   ├── PivotTable_ManagerRevenue_FastFoodRestaurant.png
-│   ├── PivotTable_Revenue_FastFoodRestaurant.png   
-|   ├── Questions_FastFoodRestaurant.png 
-│   ├── Statistics_Descriptive_FastFoodRestaurant.png
-|   ├── WorkingSheet_FastFoodRestaurant.png
+│   ├── Banner_BikeSales_Dataset.png     
+│   ├── Dashboard_BikeSales_Dataset.png
+│   ├── PivotTable_BikePurchasesAge_BikeSales_Dataset.png
+│   ├── PivotTable_Chart_AverageIncomePerPurchase_BikeSales_Dataset.png  
+|   ├── PivotTable_Chart_CustomerAgeBrackets_BikeSales_Dataset.png
+│   ├── PivotTable_Chart_CustomerCommute_BikeSales_Dataset.png
+|   ├── Slicer_BikeSales_Dataset.png
+|   ├── WorkingSheet_BikeSales_Dataset.png
 |
 |
-├── 02_fastfood_chain_dataset_john_canero.xlsx
+├── 04_bike_sales_dashboard_john_canero.xlsx
 │ 
 │
 ├── README.md                     
