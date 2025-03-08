@@ -149,28 +149,34 @@ Slider
 
 
 ## Lessons Learned and Recommendation
-Through data analysis, it was found that best-selling products like Burgers, Fries, and Beverages drive significant revenue, suggesting a focus on product-specific promotions. Payment methods also impact revenue, with different patterns observed for cash, credit cards, and gift cards, guiding tailored payment strategies.
 
-Performance varies by manager and country, indicating the importance of region-specific strategies to enhance efficiency. Box and whisker plots revealed insights into price distribution, helping to refine pricing by identifying optimal price ranges and outliers.
+#### Lessons Learned:
 
-Recommendation: 
-  1. Focus on Top Products: Prioritize marketing and upsell strategies for best-selling items like Burgers and Beverages, which contribute most to revenue. Customization of promotions can further boost these product categories.
+1. **The Importance of Data Cleaning:** Removing duplicates and standardizing data entries (such as correcting inconsistent labels) is essential to ensure the accuracy of analysis. Incomplete or redundant data can lead to incorrect conclusions and misinformed decisions.
+   
+2. **Value of Segmentation in Analysis:** Segmenting data based on gender, age brackets, and commute distances revealed key purchasing patterns that would have been missed in a broader analysis. This segmentation highlights how different demographic groups behave differently, offering more targeted insights.
 
-  2. Optimize Payment Systems: Tailor payment strategies to maximize revenue, encouraging the use of high-revenue payment methods (e.g., credit cards) through loyalty programs or incentives for gift card usage.
+3. **Visualization for Communication:** Creating dashboards with interactive elements such as slicers enhances data exploration and enables stakeholders to easily filter and drill down into the data. Effective visualization not only presents key metrics clearly but also makes insights more accessible for decision-makers.
 
-  3. Manager and Regional Performance: Implement regular performance assessments across managers and regions to address underperformance. Introduce regional-specific strategies that account for local preferences and market conditions.
+#### Recommendations:
 
-  4. Refine Pricing Strategies: Use descriptive statistics and data visualizations to continuously evaluate product pricing. Adjust prices to stay competitive while maintaining profit margins, focusing on outliers and price sensitivity.
+1. **Automate Data Cleaning Processes:** Use advanced data cleaning tools or scripts to automate common tasks like removing duplicates and standardizing data entries. This will save time and ensure consistency in future analyses.
 
-  5. Continue Data-Driven Decision Making: Leverage pivot tables and visualization tools to further analyze trends, identifying new opportunities for product improvement, cost management, and revenue growth.
+2. **Further Explore Demographic Segments:** Investigate other potentially impactful variables such as income levels, education, and employment status to deepen understanding of customer segments. This can help refine marketing strategies for different target groups.
+
+3. **Enhance Dashboard Interactivity:** Expand the dashboard to include additional slicers for factors such as commute purpose (e.g., work vs. leisure) and bike type preference. This will provide even more granular insights and offer a clearer picture of customer behavior.
+
+4. **Use Predictive Analytics:** Apply predictive modeling to anticipate future bike purchasing trends based on key factors such as age, income, and commute distance. This can help the company forecast demand and adjust inventory or marketing strategies accordingly.
+
+
+
+
 
 ## Limitation and What Can Be Improved
 
-Limitations
-- The analysis was limited by Excel’s capacity for handling large datasets and lacked insights into individual customer behavior or external factors like seasonality and market trends.
 
-Improvements
-- Future analysis could benefit from using tools like Power BI or Tableau for more detailed insights. Incorporating customer segmentation and external data (e.g., competitor pricing) would improve decision-making.
+
+
 
 
 ## Run Locally
