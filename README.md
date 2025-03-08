@@ -1,4 +1,4 @@
-![banner](assets/Banner_BikeSalesDashboard_Dataset.png)  
+![banner](assets/Banner_BikeSales_Dataset.png)  
 Banner <a href="https://www.istockphoto.com/photos/bicycle-for-sale" target="_blank">source</a>
 
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
