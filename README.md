@@ -135,14 +135,14 @@ Dashboard
   - 2. Customer Age Brackets
   - 3. Customer Commute
 
-![Pivot Table - ManagerRevnue - Fastfood Restaurant](assets/PivotTable_ManagerRevenue_FastFoodRestaurant.png)
+![Dashboard - Bike Sales Dashboard](assets/Dashboard_BikeSales_Dataset.png)
 
 Slider
   - 1. Married and Single
   - 2. Region: Europe, North America and Pacific
   - 3. Education: Bachelors, Graduate Degree, High School, Partial College and Partial High School
 
-![Pivot Table - ManagerRevnue - Fastfood Restaurant](assets/PivotTable_ManagerRevenue_FastFoodRestaurant.png)
+![Slicer - Bike Sales Dashboard](assets/Slicer_BikeSales_Dataset.png)
 
 
 
