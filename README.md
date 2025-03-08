@@ -112,7 +112,7 @@ Gaining these insights will enable the company to optimize its marketing campaig
 
 Working Sheet
 
-![Working Sheet - Fastfood Restaurant](assets/WorkingSheet_FastFoodRestaurant.png)
+![Working Sheet - Bike Sales Dashboard](assets/WorkingSheet_BikeSales_Dataset.png)
 
 Average Income Per Purchase (Male and Female)
 
