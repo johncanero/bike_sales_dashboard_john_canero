@@ -116,19 +116,19 @@ Working Sheet
 
 Average Income Per Purchase (Male and Female)
 
-![Statistics - Descriptive - Fastfood Restaurant](assets/Statistics_Descriptive_FastFoodRestaurant.png)
+![Pivot Table & Chart - Average Income Per Purchase (Male and Female) - Bike Sales Dashboard](assets/AverageIncomePerPurchase_BikeSales_Dataset.png)
 
 Customer Commute Analysis: Purchase Behavior by Distance (0-1 Miles, 1-2 Miles, 2-5 Miles, 5-10 Miles, and More than 10 Miles)
 
-![Questions - Fastfood Restaurant](assets/Questions_FastFoodRestaurant.png)
+![Pivot Table & Chart - Customer Commute Analysis - Bike Sales Dashboard](assets/PivotTable_Chart_CustomerCommute_BikeSales_Dataset.png)
 
 Customer Age Brackets (Adolescent, Middle Age, Old): Bike Purchase vs. Non-Purchase Analysis
 
-![Pivot Table - Bestselling Prodcut - Fastfood Restaurant](assets/PivotTable_BestsellingProduct_FastFoodRestaurant.png)
+![Pivot Table & Chart - DCustomer Age Bracket - Bike Sales Dashboard](assets/PivotTable_Chart_CustomerAgeBrackets_BikeSales_Dataset.png)
 
 Count of Bike Purchases by Age: Purchased vs. Not Purchased (Including Grand Total)
 
-![Pivot Table - Revenue - Fastfood Restaurant](assets/PivotTable_Revenue_FastFoodRestaurant.png)
+![Pivot Table - Count of Bike Purchases by Age - Bike Sales Dashboard](assets/PivotTable_BikePurchasesAge_BikeSales_Dataset.png)
 
 Dashboard
   - 1. Average Income Per Purchase
