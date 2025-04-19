@@ -13,8 +13,8 @@ Badge <a href="https://shields.io/" target="_blank">source</a>
 - Subject Standardization: Applied consistent naming conventions by finding and replacing variations in subject fields.
 - Currency Formatting: Removed decimal points from currency-related data to enhance readability and ensure uniform formatting.
 
-
 2. Pivot Table Analysis:
+
 - Average Income per Purchase by Gender:
   - Analyzed the average income of customers based on their purchases, split by gender (Male and Female).
   - Provided insights into how income levels impact purchasing behavior for both genders.
@@ -48,10 +48,9 @@ A user-friendly dashboard was designed to present the findings in a clear and in
 
 The dashboard includes interactive slicers, allowing users to filter data based on the following criteria:
 
-  - Marital Status: Married vs. Single
-  - Region: Europe, North America, and Pacific
-  - Education Level: Bachelors, Graduate Degree, High School, Partial College, and Partial High School
-
+- Marital Status: Married vs. Single
+- Region: Europe, North America, and Pacific
+- Education Level: Bachelors, Graduate Degree, High School, Partial College, and Partial High School
 
 <!-- Authors -->
 <!-- ## Reference
@@ -59,28 +58,29 @@ The dashboard includes interactive slicers, allowing users to filter data based 
 
 ## Table of Contents
 
-  - [Key Findings: Bike Sales Dataset](#key-findings-bike-sales-dataset)
-  - [Table of Contents](#table-of-contents)
-  - [Business Problem](#business-problem)
-  - [Data source](#data-source)
-  - [Methods](#methods) 
-  - [Tech Stack](#tech-stack)
-  - [Summary of Key Results](#summary-of-key-results)
-  - [Lessons Learned and Recommendation](#lessons-learned-and-recommendation)
-  - [Limitation and What Can Be Improved](#limitation-and-what-can-be-improved)
-  - [Run Locally](#run-locally)
-  - [Repository Structure](#repository-structure)
-  - [Contribution](#contribution)
-  - [License](#license)
+- [Key Findings: Bike Sales Dataset](#key-findings-bike-sales-dataset)
+- [Table of Contents](#table-of-contents)
+- [Business Problem](#business-problem)
+- [Data source](#data-source)
+- [Methods](#methods)
+- [Tech Stack](#tech-stack)
+- [Summary of Key Results](#summary-of-key-results)
+- [Lessons Learned and Recommendation](#lessons-learned-and-recommendation)
+- [Limitation and What Can Be Improved](#limitation-and-what-can-be-improved)
+- [Run Locally](#run-locally)
+- [Repository Structure](#repository-structure)
+- [Contribution](#contribution)
+- [License](#license)
 
 ## Business Problem
+
 The company is facing challenges in understanding which demographic factors most influence bike sales, leading to inefficient marketing efforts and missed sales opportunities. By analyzing customer data—such as income, age, commute distance, and purchasing behavior—the goal is to identify key trends that impact bike purchases. Specifically, we seek to determine how income levels, commuting distances, age brackets, marital status, education, and regional factors influence a customer’s decision to buy a bike. This will help the company understand which segments (e.g., commuters, high-income earners, or specific age groups) are most likely to purchase, allowing for more targeted marketing efforts.
 
 Gaining these insights will enable the company to optimize its marketing campaigns, focusing on high-potential customer groups, which can lead to higher conversion rates and sales growth. Additionally, understanding the relationship between customer demographics and purchasing behavior will guide product development and promotional strategies, improving the company's ability to meet customer needs, expand its market share, and increase profitability.
 
 ## Data Source
 
-- Full Project in Excel | Excel Tutorials for Beginners (https://www.youtube.com/watch?v=opJgMj1IUrc&t=388s)
+- Full Project in Excel | Excel Tutorials for Beginners (<https://www.youtube.com/watch?v=opJgMj1IUrc&t=388s>)
 
 ## Methods
 
@@ -107,58 +107,55 @@ Gaining these insights will enable the company to optimize its marketing campaig
   - Dashboard Creation
   - Slicers
 
-
 ## Summary of Key Results
 
-Working Sheet
+<div align="center">
+  <h4>Dashboard</h4>
+  <img src="assets/Dashboard_BikeSales_Dataset.png" alt="Working Sheet - Bike Sales Dashboard">
 
-![Working Sheet - Bike Sales Dashboard](assets/WorkingSheet_BikeSales_Dataset.png)
+  <ul>
+        <li align="left">Average Income Per Purchase</li>
+        <li align="left">Customer Age Brackets</li>
+        <li align="left">Customer Commute</li>
+  </ul>
 
-Average Income Per Purchase (Male and Female)
+  <h4>Working Sheet</h4>
+  <img src="assets/WorkingSheet_BikeSales_Dataset.png" alt="Working Sheet - Bike Sales Dashboard">
 
-![Pivot Table & Chart - Average Income Per Purchase (Male and Female) - Bike Sales Dashboard](assets/PivotTable_Chart_AverageIncomePerPurchase_BikeSales_Dataset.png)
+  <h4>Average Income Per Purchase (Male and Female)</h4>
+  <img src="assets/PivotTable_Chart_AverageIncomePerPurchase_BikeSales_Dataset.png" alt="Pivot Table & Chart - Average Income Per Purchase (Male and Female) - Bike Sales Dashboard">
 
-Customer Commute Analysis: Purchase Behavior by Distance (0-1 Miles, 1-2 Miles, 2-5 Miles, 5-10 Miles, and More than 10 Miles)
+  <h4>Customer Commute Analysis: Purchase Behavior by Distance (0-1 Miles, 1-2 Miles, 2-5 Miles, 5-10 Miles, and More than 10 Miles)</h4>
+  <img src="assets/PivotTable_Chart_CustomerCommute_BikeSales_Dataset.png" alt="Pivot Table & Chart - Customer Commute Analysis - Bike Sales Dashboard">
 
-![Pivot Table & Chart - Customer Commute Analysis - Bike Sales Dashboard](assets/PivotTable_Chart_CustomerCommute_BikeSales_Dataset.png)
+  <h4>Customer Age Brackets (Adolescent, Middle Age, Old): Bike Purchase vs. Non-Purchase Analysis</h4>
+  <img src="assets/PivotTable_Chart_CustomerAgeBrackets_BikeSales_Dataset.png" alt="Pivot Table & Chart - Customer Age Bracket - Bike Sales Dashboard">
 
-Customer Age Brackets (Adolescent, Middle Age, Old): Bike Purchase vs. Non-Purchase Analysis
-
-![Pivot Table & Chart - DCustomer Age Bracket - Bike Sales Dashboard](assets/PivotTable_Chart_CustomerAgeBrackets_BikeSales_Dataset.png)
-
-Count of Bike Purchases by Age: Purchased vs. Not Purchased (Including Grand Total)
-
-![Pivot Table - Count of Bike Purchases by Age - Bike Sales Dashboard](assets/PivotTable_BikePurchasesAge_BikeSales_Dataset.png)
-
-Dashboard
-  - 1. Average Income Per Purchase
-  - 2. Customer Age Brackets
-  - 3. Customer Commute
-
-![Dashboard - Bike Sales Dashboard](assets/Dashboard_BikeSales_Dataset.png)
-
-Slider
-  - 1. Married and Single
-  - 2. Region: Europe, North America and Pacific
-  - 3. Education: Bachelors, Graduate Degree, High School, Partial College and Partial High School
-
-![Slicer - Bike Sales Dashboard](assets/Slicer_BikeSales_Dataset.png)
+  <h4>Count of Bike Purchases by Age: Purchased vs. Not Purchased (Including Grand Total)</h4>
+  <img src="assets/PivotTable_BikePurchasesAge_BikeSales_Dataset.png" alt="Pivot Table - Count of Bike Purchases by Age - Bike Sales Dashboard">
 
 
 
-
+  <h4>Slider</h4>
+  <ul>
+        <li>1. Married and Single</li>
+        <li>2. Region: Europe, North America, and Pacific</li>
+        <li>3. Education: Bachelors, Graduate Degree, High School, Partial College, and Partial High School</li>
+  </ul>
+  <img src="assets/Slicer_BikeSales_Dataset.png" alt="Slicer - Bike Sales Dashboard">
+</div/>
 
 ## Lessons Learned and Recommendation
 
-#### Lessons Learned:
+#### Lessons Learned
 
 1. **The Importance of Data Cleaning:** Removing duplicates and standardizing data entries (such as correcting inconsistent labels) is essential to ensure the accuracy of analysis. Incomplete or redundant data can lead to incorrect conclusions and misinformed decisions.
-   
+
 2. **Value of Segmentation in Analysis:** Segmenting data based on gender, age brackets, and commute distances revealed key purchasing patterns that would have been missed in a broader analysis. This segmentation highlights how different demographic groups behave differently, offering more targeted insights.
 
 3. **Visualization for Communication:** Creating dashboards with interactive elements such as slicers enhances data exploration and enables stakeholders to easily filter and drill down into the data. Effective visualization not only presents key metrics clearly but also makes insights more accessible for decision-makers.
 
-#### Recommendations:
+#### Recommendations
 
 1. **Automate Data Cleaning Processes:** Use advanced data cleaning tools or scripts to automate common tasks like removing duplicates and standardizing data entries. This will save time and ensure consistency in future analyses.
 
@@ -168,12 +165,9 @@ Slider
 
 4. **Use Predictive Analytics:** Apply predictive modeling to anticipate future bike purchasing trends based on key factors such as age, income, and commute distance. This can help the company forecast demand and adjust inventory or marketing strategies accordingly.
 
-
-
-
-
 ## Limitation and What Can Be Improved
-#### Limitations:
+
+#### Limitations
 
 1. **Limited Scope of Variables:** While the analysis covers demographic factors like age, gender, marital status, and commute distance, other potentially influential factors—such as customer lifestyle, preferences, or environmental factors (e.g., weather, infrastructure)—are not included. This limits the ability to fully understand the drivers behind bike purchases.
 
@@ -183,7 +177,7 @@ Slider
 
 4. **Potential Bias in the Data:** If the dataset is not fully representative of the entire customer base (e.g., skewed toward certain regions or demographics), the insights may be biased and not applicable to the entire market.
 
-#### What Can Be Improved:
+#### What Can Be Improved
 
 1. **Incorporate Additional Variables:** To gain deeper insights, more variables should be included, such as product type preferences (e.g., mountain bikes, road bikes), customer lifestyle indicators (e.g., fitness level, interest in outdoor activities), and even environmental factors (e.g., bike-friendly cities, weather conditions). This would help build a more comprehensive understanding of customer purchasing behavior.
 
@@ -197,17 +191,13 @@ Slider
 
 6. **Use Advanced Analytics Techniques:** Employ machine learning or predictive models to identify patterns, predict future purchasing behavior, and optimize customer targeting. This would allow the business to move from descriptive analytics to more actionable, predictive insights.
 
-
-
-
-
 ## Run Locally
+
 Initialize git
 
 ```bash
 git init
 ```
-
 
 Clone the project
 
@@ -228,7 +218,6 @@ code .
 ```
 
 ## Repository Structure
-
 
 ```
 ├── assets
@@ -278,8 +267,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Learn more about [MIT](https://choosealicense.com/licenses/mit
-
-
-
-
+Learn more about [MIT](<https://choosealicense.com/licenses/mit>
