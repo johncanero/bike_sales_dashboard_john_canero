@@ -136,13 +136,13 @@ Gaining these insights will enable the company to optimize its marketing campaig
 
 
 
-  <h4>Slider</h4>
-  <ul>
-        <li>1. Married and Single</li>
-        <li>2. Region: Europe, North America, and Pacific</li>
-        <li>3. Education: Bachelors, Graduate Degree, High School, Partial College, and Partial High School</li>
-  </ul>
+  <h4>Slicer</h4>
   <img src="assets/Slicer_BikeSales_Dataset.png" alt="Slicer - Bike Sales Dashboard">
+    <ul>
+        <li align="left">Married and Single</li>
+        <li align="left">Region: Europe, North America, and Pacific</li>
+        <li align="left">Education: Bachelors, Graduate Degree, High School, Partial College, and Partial High School</li>
+  </ul>
 </div/>
 
 ## Lessons Learned and Recommendation
